@@ -1,0 +1,98 @@
+/* BAR NAV Y FOOTER COLORES*/
+/* Comando para que la imagen se ajuste al navbar */
+.logo-custom {
+    height: 40px;
+    width: auto;
+}
+
+/* 1. Fondo de la Navbar (Rosa Fuerte) */
+.bg-chuli-pink {
+    background-color: #fc03a9 !important; 
+}
+
+/* 2. Fondo del Footer: Mismo color que la Navbar (Rosa Fuerte) */
+/* color del texto para que se vea bien en el fondo */
+.navbar-brand {
+    color: white !important;
+}
+/*Título de la Navbar más grande */
+.navbar-title {
+    font-size: 3.0rem; /* Ajusta este valor*/
+    font-weight: bold;
+}
+/* enlaces, de color blanco */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* ESTILO PARA EL MENÚ DESPLEGABLE (Dropdown) */
+.dropdown-menu {
+    /* Usar un color blanco o muy claro es mejor para el contraste del texto */
+    background-color: white; 
+    border: 1px solid #fc03a9; /* Borde rosa para un toque de marca */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #333; /* Texto oscuro para que se lea sobre el fondo blanco */
+}
+
+/* El color del texto del dropdown al pasar el ratón */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #fc03a9; /* Rosa de marca */
+    color: white; /* Texto blanco en el hover */
+}
+
+
+/* ESTILOS PARA LA GRILLA DE PRODUCTOS */
+.card-img-top {
+    height: 180px; 
+    width: 100%; /* Ajuste para que ocupe todo el ancho del contenedor */
+    margin: 0 auto; 
+    display: block;
+    object-fit: contain; /* Para que la imagen se vea completa sin recorte */
+    object-position: center; 
+    background-color: #ffffff; /* Fondo blanco para las áreas vacías de object-fit: contain */
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card .card-body {
+    flex-grow: 1; 
+}
+
+/* ESTILOS PARA LOS BOTONES (TURQUESA) */
+.btn-primary, 
+.btn-primary:focus, 
+.btn-primary:active {
+    background-color: #03bcc9 !important; /* Turquesa principal */
+    border-color: #05e7f7 !important;
+    color: white !important;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #40e0d0 !important; /* Turquesa más claro */
+    border-color: #40e0d0 !important;
+}
+
+.btn-primary:active {
+    background-color: #01a1ad !important; /* Turquesa mas oscuro */
+    border-color: #00bcd4 !important;
+}
+
+
+/* ESTILOS DEL FOOTER COMPACTO */
+/* Color Turquesa para los títulos del footer */
+.text-chuli-turquesa {
+    color: #0282a5 !important; 
+}
+
+/* Estilo para la línea divisoria */
+footer hr {
+    background-color: #0ec8fc; /* Línea turquesa */
+    height: 1px;
+    border: 0;
+}
