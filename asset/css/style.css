@@ -7,7 +7,7 @@
 
 /* 1. Fondo de la Navbar (Rosa Fuerte) */
 .bg-chuli-pink {
-    background-color: #fc03a9 !important; 
+    background-color: #fc03a9 !important;
 }
 
 /* 2. Fondo del Footer: Mismo color que la Navbar (Rosa Fuerte) */
@@ -28,7 +28,7 @@
 /* ESTILO PARA EL MENÚ DESPLEGABLE (Dropdown) */
 .dropdown-menu {
     /* Usar un color blanco o muy claro es mejor para el contraste del texto */
-    background-color: white; 
+    background-color: white;
     border: 1px solid #fc03a9; /* Borde rosa para un toque de marca */
 }
 
@@ -45,12 +45,12 @@
 
 /* ESTILOS PARA LA GRILLA DE PRODUCTOS */
 .card-img-top {
-    height: 180px; 
+    height: 180px;
     width: 100%; /* Ajuste para que ocupe todo el ancho del contenedor */
-    margin: 0 auto; 
+    margin: 0 auto;
     display: block;
     object-fit: contain; /* Para que la imagen se vea completa sin recorte */
-    object-position: center; 
+    object-position: center;
     background-color: #ffffff; /* Fondo blanco para las áreas vacías de object-fit: contain */
 }
 
@@ -60,12 +60,12 @@
 }
 
 .product-card .card-body {
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 /* ESTILOS PARA LOS BOTONES (TURQUESA) */
-.btn-primary, 
-.btn-primary:focus, 
+.btn-primary,
+.btn-primary:focus,
 .btn-primary:active {
     background-color: #03bcc9 !important; /* Turquesa principal */
     border-color: #05e7f7 !important;
@@ -87,7 +87,7 @@
 /* ESTILOS DEL FOOTER COMPACTO */
 /* Color Turquesa para los títulos del footer */
 .text-chuli-turquesa {
-    color: #0282a5 !important; 
+    color: #0282a5 !important;
 }
 
 /* Estilo para la línea divisoria */
@@ -95,4 +95,14 @@ footer hr {
     background-color: #0ec8fc; /* Línea turquesa */
     height: 1px;
     border: 0;
+}
+/*estilos html detalles*/
+.product-detail-container {
+    padding: 40px 0;
+}
+.detail-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
