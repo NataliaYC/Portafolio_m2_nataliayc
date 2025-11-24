@@ -2,7 +2,7 @@ Portafolio_m2_nataliayc
 
 ubicacion repositorio: https://github.com/NataliaYC/Portafolio_m2_nataliayc.git
 
-Proyecto qu incluye la base de un archivo html5 para ser presentado como trabajo final de modulo 2 de Bootcamp 
+Proyecto que incluye la base de un archivo html5 para ser presentado como trabajo final de modulo 2 de Bootcamp 
 desarrolador full stack java trainee para demostrar aprendix¿zajes adquidisos durante el proceso de estudio.
 inicialmente es una pagina pensada para armar un proyecto de e-commerse sobre una tienda virtual de accesorios
 para hogar menaje licenciado de diversas marcas reconocidas.
