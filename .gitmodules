@@ -1,0 +1,6 @@
+[submodule "ecommerce-db-m3"]
+	path = ecommerce-db-m3
+	url = https://github.com/NataliaYC/ecommerce-db-m3.git
+[submodule "base_datos_sql"]
+	path = base_datos_sql
+	url = https://github.com/NataliaYC/ecommerce-db-m3.git
